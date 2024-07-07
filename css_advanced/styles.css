@@ -131,4 +131,40 @@ header nav ul li a:hover {
     font-weight:lighter ;
     padding:0;
     color: #eff9fc;
+    
+}
+/*-------------------------------------Quote---------------------------------------------------*/
+
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #c371ff;
+    margin: 0;
+    height: 392px;
+}
+.quote-txt {
+   
+    color: #fff;
+}
+
+.quote-txt blockquote {
+    font-size: 22px;
+    
+    font-weight: lighter;
+
+}
+.quote-txt h3{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.quote-txt  p {
+    font-size: 22px;
+    font-weight: lighter;
+    font-style:italic;
 }
