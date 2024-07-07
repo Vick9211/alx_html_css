@@ -395,3 +395,41 @@ header nav ul li a:hover {
     color: #bdbfbf;
 }
 
+/*-------------------------------------Footer---------------------------------------------------*/
+  
+.foot {
+    
+    background-color: #081628;
+    height: 249px;
+    
+    
+ }
+ #left {
+    display: flex;
+  justify-content:left;
+   padding-top: 100px;
+   padding-bottom: 5px;
+   padding-left: 220px;
+    
+ }
+ #right {
+   display: flex;
+   justify-content:right;
+   padding-right: 220px;
+   position: relative;
+   bottom: 40px;
+   gap: 12px;
+   
+ 
+ }
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: lighter;
+   color:#5e697a;
+ 
+ }
+
