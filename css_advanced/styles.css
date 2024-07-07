@@ -343,3 +343,55 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+/*-------------------------------------FAQ---------------------------------------------------*/
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 707px;
+    width: 920px;
+    margin: 5px auto;
+    margin-bottom: 50px;
+    padding: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.FAQ {
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    column-gap: 300px;
+}
+.faq h2 {
+    height: 75px;
+    width: 136px;
+   font-size: 60px;
+   font-weight: lighter;
+   color: #0a1624;
+   font-family: 'Source Sans Pro', sans-serif;
+   
+
+}
+.faq h3 {
+    font-size: 16;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px
+    
+}
+ 
+.p {
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 192px;
+    width: 360px;
+    padding-top: 0%;
+    color: #bdbfbf;
+}
+
