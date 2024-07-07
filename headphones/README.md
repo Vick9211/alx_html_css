@@ -1,4 +1,4 @@
 # Figma design implementation project
 
 ## Description
-This project is an implementation of a design created in Figma. The goal is to transfor the Figma design into code.
+This project involves turning a Figma design into code using HTML and CSS. 
