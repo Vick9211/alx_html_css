@@ -281,3 +281,65 @@ header nav ul li a:hover {
    font-weight: bold;
 }
 
+/*-------------------------------------membership---------------------------------------------------*/
+
+
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #081628;
+    margin: 25px 0;
+    background-position:100%; 
+    height: 502px;
+    color: #fff;
+  
+}
+
+.free {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: -5%;
+   row-gap: 20px;
+}
+
+ #free {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-right: 100px;
+    gap: 100px;
+ }   
+
+.smile {
+    
+    height: 153px;
+    width: 257px;
+}
+.membership img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.smile h3 {
+    font-size: 18;
+    font-weight: bold;
+   
+    text-align: center;
+   
+}
+.smile p {
+    font-size: 14;
+    font-weight: lighter;
+    text-align: center;
+}
+
