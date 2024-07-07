@@ -1,0 +1,442 @@
+
+.header-section-wrapper {
+    height:3718%;
+    background-image: url(assets/Object.png); 
+    background-size: 100% 100%; 
+    background-position:50%; 
+    background-repeat: no-repeat; 
+
+     }
+
+
+header {
+   
+  color: #fff; 
+   padding-top: 20px;
+}
+
+
+
+header nav {
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px 150px;
+    
+    
+
+}
+
+
+header nav ul li {
+    display: inline-block; 
+    margin-right: 50px; 
+    
+}
+
+header nav ul li:last-child {
+    margin-right: 0; 
+}
+
+header nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight:bold;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header nav ul li a:hover {
+    color: #f0f0f0; 
+}
+/*-------------------------------------Nav---------------------------------------------------*/
+
+/*-------------------------------------body---------------------------------------------------*/
+
+
+.center {
+   display: block;
+   text-align: center;
+   margin-top: 150px;
+   color: #fff;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+.center h1 {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: auto;
+    
+}
+
+.center span {
+    display: inline-block; 
+    margin-right: 40px; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.btn {
+    background-color: #c470ff; 
+    color: white; 
+    margin-top: 20px;
+    padding: 12px  12px; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 14px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;  
+    box-sizing: border-box;
+               }
+
+
+
+ .pros {
+    
+        display: block;
+        text-align: center;
+        margin-top: 200px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        }
+
+.purpule {
+    color: #b972fc;
+    font-size: 32px;
+    font-weight: bold;
+
+ }
+
+ .pro-img {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+   
+    gap: 125px; 
+    height: 50vh; 
+}
+
+.circle {
+    border: none;
+    border-radius: 50%;
+}
+
+.pro-img h3 {
+    font-size: 18px;
+    
+}
+.pro-img p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight:lighter ;
+    padding:0;
+    color: #eff9fc;
+}
+
+/*-------------------------------------Quote---------------------------------------------------*/
+
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #c371ff;
+    margin: 0;
+    height: 392px;
+}
+.quote-txt {
+   
+    color: #fff;
+}
+
+.quote-txt blockquote {
+    font-size: 22px;
+    
+    font-weight: lighter;
+
+}
+.quote-txt h3{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.quote-txt  p {
+    font-size: 22px;
+    font-weight: lighter;
+    font-style:italic;
+}
+
+
+/*-------------------------------------Videos list---------------------------------------------------*/
+
+
+.tutorials {
+    width: 1228px;
+    height: 450;
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 10px;
+
+}
+
+#video {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    padding-top: 10px;
+    gap: 30px;
+   
+
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    font-weight:lighter;
+    margin: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.img {
+    position: relative;
+    width: 255px;  
+    height: 154px; 
+    
+}
+
+.play-button {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+ 
+}
+
+.tutorials h3 {
+    font-size: 16;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.tutorials p {
+    font-size: 14px;
+    color: #b6bbc2;
+    font-weight:lighter;
+    width: 242px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.small {
+    height: 30px;
+    width: 30px;
+   }
+.tutorials h4 {
+   
+    font-size: 14;
+    font-weight:bold;
+    color: #dd91ff;
+     margin-left: -0.2px;
+    margin-top: 8px;
+    padding-left: auto;
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#inline-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#inline-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+#inline-4 {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;}
+        
+
+#phillip {
+    font-size: 14px;
+    position: relative;
+    left: 200px;
+   bottom: 30px;
+   color: #C271FF;
+   font-weight: bold;
+}
+
+
+
+/*-------------------------------------membership---------------------------------------------------*/
+
+
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #081628;
+    margin: 25px 0;
+    background-position:100%; 
+    height: 502px;
+    color: #fff;
+  
+}
+
+.free {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: -5%;
+   row-gap: 20px;
+}
+
+ #free {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-right: 100px;
+    gap: 100px;
+ }   
+
+.smile {
+    
+    height: 153px;
+    width: 257px;
+}
+.membership img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.smile h3 {
+    font-size: 18;
+    font-weight: bold;
+   
+    text-align: center;
+   
+}
+.smile p {
+    font-size: 14;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+/*-------------------------------------FAQ---------------------------------------------------*/
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 707px;
+    width: 920px;
+    margin: 5px auto;
+    margin-bottom: 50px;
+    padding: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.FAQ {
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    column-gap: 300px;
+}
+.faq h2 {
+    height: 75px;
+    width: 136px;
+   font-size: 60px;
+   font-weight: lighter;
+   color: #0a1624;
+   font-family: 'Source Sans Pro', sans-serif;
+   
+
+}
+.faq h3 {
+    font-size: 16;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px
+    
+}
+ 
+.p {
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 192px;
+    width: 360px;
+    padding-top: 0%;
+    color: #bdbfbf;
+}
+
+/*-------------------------------------Footer---------------------------------------------------*/
+
+
+   
+ .foot {
+    
+    background-color: #081628;
+    height: 249px;
+    
+    
+ }
+ #left {
+    display: flex;
+  justify-content:left;
+   padding-top: 100px;
+   padding-bottom: 5px;
+   padding-left: 220px;
+    
+ }
+ #right {
+   display: flex;
+   justify-content:right;
+   padding-right: 220px;
+   position: relative;
+   bottom: 40px;
+   gap: 12px;
+   
+ 
+ }
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: lighter;
+   color:#5e697a;
+ 
+ }
