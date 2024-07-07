@@ -131,7 +131,7 @@ header nav ul li a:hover {
     font-weight:lighter ;
     padding:0;
     color: #eff9fc;
-    
+
 }
 /*-------------------------------------Quote---------------------------------------------------*/
 
@@ -168,3 +168,116 @@ header nav ul li a:hover {
     font-weight: lighter;
     font-style:italic;
 }
+
+/*-------------------------------------Videos list---------------------------------------------------*/
+
+
+.tutorials {
+    width: 1228px;
+    height: 450;
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 10px;
+
+}
+
+#video {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    padding-top: 10px;
+    gap: 30px;
+   
+
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    font-weight:lighter;
+    margin: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.img {
+    position: relative;
+    width: 255px;  
+    height: 154px; 
+    
+}
+
+.play-button {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+ 
+}
+
+.tutorials h3 {
+    font-size: 16;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.tutorials p {
+    font-size: 14px;
+    color: #b6bbc2;
+    font-weight:lighter;
+    width: 242px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.small {
+    height: 30px;
+    width: 30px;
+   }
+.tutorials h4 {
+   
+    font-size: 14;
+    font-weight:bold;
+    color: #dd91ff;
+     margin-left: -0.2px;
+    margin-top: 8px;
+    padding-left: auto;
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#inline-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#inline-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+#inline-4 {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;}
+        
+
+#phillip {
+    font-size: 14px;
+    position: relative;
+    left: 200px;
+   bottom: 30px;
+   color: #C271FF;
+   font-weight: bold;
+}
+
